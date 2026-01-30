@@ -1,0 +1,43 @@
+.bg-vibrant-lime { background-color: #d4ff00; }
+.bg-vibrant-orange { background-color: #ff5c00; }
+.bg-vibrant-blue { background-color: #2e44ff; }
+.bg-vibrant-pink { background-color: #ff007a; }
+
+.text-vibrant-blue { color: #2e44ff; }
+.text-vibrant-orange { color: #ff5c00; }
+
+body {
+    font-family: 'Outfit', sans-serif;
+    scroll-behavior: smooth;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    gap: 10px;
+}
+
+.content {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+button {
+  border: black;
+  border-radius: 10px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
