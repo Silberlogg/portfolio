@@ -1,12 +1,15 @@
-.bg-vibrant-lime { background-color: #d4ff00; }
-.bg-vibrant-orange { background-color: #ff5c00; }
-.bg-vibrant-blue { background-color: #2e44ff; }
-.bg-vibrant-pink { background-color: #ff007a; }
+:root {
+  --bg-vibrant-red: #F20C1F;
+  --bg-vibrant-yellow: #FBD109;
+  --bg-vibrant-green: #30F284;
+  --bg-vibrant-blue: #85F2E7;
 
-.text-vibrant-blue { color: #2e44ff; }
-.text-vibrant-orange { color: #ff5c00; }
+  --bg-dark-purple: #180731;
+  --bg-clean-beige: #EDE1CC;
+}
 
 body {
+    background-color: var(--bg-clean-beige);
     font-family: 'Outfit', sans-serif;
     scroll-behavior: smooth;
     display: flex;
