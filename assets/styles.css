@@ -1,11 +1,11 @@
 :root {
-  --bg-vibrant-red: #F20C1F;
-  --bg-vibrant-yellow: #FBD109;
-  --bg-vibrant-green: #30F284;
-  --bg-vibrant-blue: #85F2E7;
+    --bg-vibrant-red: #F20C1F;
+    --bg-vibrant-yellow: #FBD109;
+    --bg-vibrant-green: #30F284;
+    --bg-vibrant-blue: #85F2E7;
 
-  --bg-dark-purple: #180731;
-  --bg-clean-beige: #EDE1CC;
+    --bg-dark-purple: #180731;
+    --bg-clean-beige: #EDE1CC;
 }
 
 body {

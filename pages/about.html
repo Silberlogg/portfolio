@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/test.css">
     <title>Arthur Sillard</title>
 </head>
+
 <body>
 
-    <nav class="nav-box">
-        <ul>
-            <li><a href="about.html">À propos de moi</a></li>
-            <li><a href="temp.html">Projets</a></li>
-            <li><a href="temp.html">Contact</a></li>
-        </ul>
-    </nav>
+    <header>
+        <div id="logo">
+            <a href="../index.html"><img src="../assets/images/logo-no-bg.png" alt="logo"></a>
+        </div>
+        <nav class="nav-box">
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <svg style="position: absolute; width: 0; height: 0;">
         <filter id="liquid-refraction" x="-20%" y="-20%" width="140%" height="140%">
             <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3" result="noise" />
-            
+
             <feDisplacementMap in="SourceGraphic" in2="noise" scale="20" xChannelSelector="R" yChannelSelector="G" />
         </filter>
     </svg>
@@ -28,7 +35,37 @@
 
 
     <div class="content">
-        <p>Actuellement en BUT informatique à Nantes ...</p>
+        <h1>About me</h1>
+        <div class="about">
+            <h3>Who am I ?</h3>
+            <p>I am currently in my first year of studies at the University of Nantes, France. I am a student of the BUT
+                Informatique program.</p>
+            <h3>What do I like ?</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, quisquam inventore neque repudiandae
+                labore laboriosam consectetur esse id reprehenderit rerum omnis beatae totam vero perspiciatis
+                consequatur eligendi soluta aliquid nulla doloremque itaque sequi ab illo similique. Aperiam, explicabo
+                dignissimos aut consequatur dicta ipsum quos unde optio iste vel dolorum repellat modi magnam rerum
+                ducimus debitis natus praesentium temporibus laboriosam iure recusandae quia. Voluptate iusto minus
+                reiciendis officia quidem veniam, possimus repellat placeat pariatur dolorem, quisquam perferendis.
+                Porro, quaerat consequatur alias explicabo laborum dolorum, dolore hic nesciunt voluptatum mollitia
+                dolor debitis nemo doloribus magnam. Vitae minima mollitia obcaecati, delectus ipsa rem repudiandae
+                distinctio? Asperiores in amet sapiente exercitationem similique mollitia suscipit minus tempora
+                repellat deleniti sint voluptates modi nostrum eligendi excepturi quasi reiciendis nesciunt, perferendis
+                nisi possimus. Maiores nemo modi tempora sunt. Possimus totam odit, illo enim voluptatem provident harum
+                doloribus velit in, cum, nesciunt commodi facere veritatis consequatur omnis expedita? Quo accusantium
+                voluptas in est obcaecati iure nobis, minima eaque fugiat, omnis repellat impedit laudantium natus
+                quibusdam quam. Rerum iure veritatis dolores facere asperiores nisi nobis ea molestias quas dignissimos,
+                voluptas voluptatum autem! Ex incidunt optio voluptatem officiis tempora at ipsum, ad pariatur. Officiis
+                optio perferendis qui sapiente, deleniti ea iusto voluptas, repellendus rerum inventore commodi et nemo
+                sint itaque doloremque ipsam sit doloribus consectetur facere possimus autem modi tempore. Deleniti
+                cupiditate dolor corporis ullam, cum error debitis mollitia dolorem enim, perspiciatis atque molestiae
+                consectetur quod ab adipisci nisi recusandae ad amet vero distinctio eligendi omnis dolorum accusantium?
+                Officia a accusantium deserunt eveniet! Molestiae mollitia labore facere expedita repellendus, debitis
+                reprehenderit id ex nobis sunt praesentium dolorem autem quod corporis, inventore qui perferendis
+                perspiciatis sit quos sint et pariatur vero! Illum sapiente commodi rerum minima in modi ea tempora esse
+                facere repellat, cumque sunt quos. Iusto, suscipit? Ad, quae quas!</p>
+        </div>
     </div>
 </body>
+
 </html>
