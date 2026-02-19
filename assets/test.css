@@ -2,6 +2,12 @@
 
 /* --- Generic Properties --- */
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     --bg-vibrant-red: #F20C1F;
     --bg-vibrant-yellow: #FBD109;
@@ -13,8 +19,15 @@
     --bg-clean-beige: #EDE1CC;
 }
 
+h1,
+h2,
+h3,
+p {
+    color: white;
+    margin: 10px;
+}
+
 body {
-    margin: 0;
     padding: 0 20px;
     height: 100vh;
     overflow: hidden;
@@ -51,7 +64,7 @@ header {
 /* --- LE CHAMP DE RECHERCHE --- */
 .nav-box {
     position: relative;
-    width: 600px;
+    width: 30%;
     height: 60px;
     border-radius: 18px;
 
@@ -73,15 +86,11 @@ header {
 
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    gap: 30px;
-    padding: 0 20px;
-
 }
 
 .nav-box ul {
     list-style: none;
-    width: 500px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
 }
@@ -128,14 +137,7 @@ header {
 .presentation h1 {
     font-size: 1000%;
     width: 100%;
-    margin: 0;
 }
-
-.presentation h2 {
-    margin: 0;
-}
-
-
 
 .project,
 .about,
@@ -181,16 +183,6 @@ header {
     align-items: center;
     gap: 10px;
 }
-
-
-h1,
-h2,
-h3,
-p {
-    color: white;
-}
-
-
 
 #email {
     color: var(--bg-vibrant-green);
