@@ -5,6 +5,10 @@
     --color-special-white-2: #F2F2F2;
     --color-special-white-3: #E4E4E4;
 
+    --color-special-grey-1: oklch(.3 0 0);
+    --color-special-grey-2: oklch(.2 0 0);
+    --color-special-grey-3: oklch(.1 0 0);
+
 
     --color-amber-gold-50: #fff8e5;
     --color-amber-gold-100: #fff1cc;
